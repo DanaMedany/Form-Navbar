@@ -57,3 +57,16 @@ form input[type="submit"]:hover {
   background-color: #555;
   color: white;
 }
+section {
+  background-color: #555;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+  width: 0;
+}
+button {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto
+}

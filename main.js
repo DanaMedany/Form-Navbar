@@ -28,5 +28,19 @@ function validation() {
     return true;
   }
   }
+  
+  function Ave() {
+    var firstNumber = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
+    var secondNumber = 10;
+    var total = firstNumber / secondNumber;
+    console.log(total);
+  }
+  Ave();
 
+  function show() {
+    document.getElementById("section").style.width = "100%";
+  }
+  function hide() {
+    document.getElementById("section").style.width = "0";
+  }
 
